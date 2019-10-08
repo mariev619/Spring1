@@ -42,10 +42,10 @@ public class Application {
 	@RequestMapping("/")
 	@ResponseBody
 	public String index() {
-		return "<ul><li><a href='https://en.wikipedia.org/wiki/William_Hartnell'>William Hartnell</a></li>" +
-                "<li><a href='https://en.wikipedia.org/wiki/Patrick_Troughton'>Patrick Troughton</a></li>" +
-                "<li><a href='https://en.wikipedia.org/wiki/Jon_Pertwee'>Jon Pertwee</a></li>" +
-                "<li><a href='https://en.wikipedia.org/wiki/Tom_Baker'>Tom Baker</a></li></ul>";
+		return "<ul><li><a href='/doctor/1'>William Hartnell</a></li>" +
+                "<li><a href='/doctor/2'>Patrick Troughton</a></li>" +
+                "<li><a href='/doctor/3'>Jon Pertwee</a></li>" +
+                "<li><a href='/doctor/4'>Tom Baker</a></li></ul>";
 	}
 
 }
